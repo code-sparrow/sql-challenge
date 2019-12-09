@@ -1,0 +1,6 @@
+START /WAIT pgfutter --schema public --db EmployeeSQL --pass postgres csv employees.csv
+START /WAIT pgfutter --schema public --db EmployeeSQL --pass postgres csv salary.csv
+START /WAIT pgfutter --schema public --db EmployeeSQL --pass postgres csv titles.csv      
+START /WAIT pgfutter --schema public --db EmployeeSQL --pass postgres csv departments.csv 
+START /WAIT pgfutter --schema public --db EmployeeSQL --pass postgres csv dept_manager.csv
+START /WAIT pgfutter --schema public --db EmployeeSQL --pass postgres csv dept_emp.csv                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
